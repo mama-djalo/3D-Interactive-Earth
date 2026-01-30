@@ -153,3 +153,8 @@ This project is for **educational purpose only**.
 **Web Innovation**
 **Liverpool Hope University**
 University Coursework Project
+
+# Contact
+**Phone: 07498 561299**
+**Email: mamasadj@hotmail.com**
+**GitHub: http://github.com/mama-djalo**
