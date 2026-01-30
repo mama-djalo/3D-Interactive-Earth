@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css">
+    <title>3D interactive heart</title>
+
+
+</head>
+<body>
+ <div id="title">
+    <h1>3D interactive Earth</h1>
+ </div>
+
+ <div id="searchContainer">
+    <input type="text" id="countrySearch" placeholder="Enter country name">
+    <button id="searchButton">Search</button>
+
+     <a href="USER_GUIDE.pdf" target="_blank" class="help-link">
+         User Guide
+     </a>
+
+ <p id="searchMessage" class="hidden"></p>
+ </div>
+
+ <div id="infoPanel" class="hidden">
+     <button id="closeInfo">×</button>
+     <h2 id="infoName"></h2>
+     <img id="infoFlag" alt="Country flag">
+     <p><strong>Population:</strong> <span id="infoPopulation"></span></p>
+     <p><strong>Area:</strong> <span id="infoArea"></span></p>
+     <p><strong>GDP:</strong> <span id="infoGDP"></span></p>
+ </div>
+
+
+ <canvas class="webgl"></canvas>
+
+
+    <script type="module" src="./src/client.js"></script>
+</body>
+</html>
